@@ -16,6 +16,7 @@ body {
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 /* header */
@@ -52,7 +53,7 @@ body {
 
 /* Main Section */
 .main{
-    margin: 0 150px;
+    padding: 0 150px;
     background-color: #F5F8FF;
 }
 
@@ -84,7 +85,7 @@ body {
     margin-bottom: 75px;
     padding: 50px 140px;
     border-radius: 25px;
-    background-color: #4d47ff49;
+    background-color: #4d47ff2f;
 }
 .productive_user_title{
     font-size: 36px;
@@ -108,4 +109,71 @@ body {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     color: #00000077;
+}
+
+/* our users say Section */
+.users_say{
+    margin: 135px 0;
+}
+.pro_users{
+    display: flex;
+    gap: 20px;
+}
+.pro_user{
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 365px;
+    height: 242px;
+    border-radius: 15px;
+}
+.pro_users .description{
+    font-size: 16px;
+}
+.pro_users .pro_user_title{
+    font-size: 24px;
+    padding: 8px 0;
+}
+.pro_user .profile{
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+}
+.pro_user_info{
+    padding: 20px 0;
+}
+.pro_user .profile div h4{
+    color: #757575;
+    font-size: 16px;
+}
+.pro_user .profile div p{
+    color: #B3B3B3;
+    font-size: 16px;
+}
+.pro_user .profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.pro_user .profile div{
+    padding: 15px;
+}
+/* Ready to focus better section */
+.focus{
+    text-align: center;
+    padding: 70px 0;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.focus .focus_title{
+    padding: 20px 0;
+}
+.size{
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+.focus img{
+    width: 840px;
+    border-radius: 50px;
 }
