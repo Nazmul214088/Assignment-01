@@ -217,11 +217,13 @@ body {
     font-size: 18px;
     font-weight: 600;
     display: block;
+    padding: 10px;
     margin-top: 10px;
 }
 .Touch-section form  input{
     padding: 20px 32px;
     border-radius: 10px;
+    font-size: 20px;
     width: 100%;
     margin-bottom: 20px;
     border: none;
